@@ -17,14 +17,14 @@ h1 {
   font-weight: 500;
   font-style: normal;
 }
-h2{
-    font-size: 24px;
-    font-family: "Source Code Pro", monospace;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: -0.015em;
-    color: #1e2022;
-} 
+h2 {
+  font-size: 24px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+  color: #1e2022;
+}
 
 .inlineBlock {
   display: inline-block;
@@ -57,7 +57,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin: 0 0 0 auto;
+  margin: 0 14px 0 auto;
 }
 nav li {
   text-align: center;
@@ -109,11 +109,16 @@ nav li {
 .locationHolder {
   display: inline-block;
   vertical-align: top;
-  /* width: 30%;
-    border: solid 1px red; */
+  width: 10%;
+  /* border: solid 1px red; */
   text-align: right;
   align-self: flex-start;
   margin-left: auto;
+  margin-right: 0;
+}
+.location p {
+  display: inline-block;
+  margin-left: 2px;
 }
 
 /* Footer */
@@ -146,12 +151,12 @@ footer a {
   text-decoration: none;
   color: #faf9f3;
 }
-footer li{
-    list-style: none;
+footer li {
+  list-style: none;
 }
-footer h2{
-    text-align: left;
-    text-decoration: none;
-    color: #faf9f3;
-    text-decoration: underline;
+footer h2 {
+  text-align: left;
+  text-decoration: none;
+  color: #faf9f3;
+  text-decoration: underline;
 }
